@@ -1,0 +1,80 @@
+$two-peoples: url(../images/two-peoples.png);
+
+.learn-more-section {
+    background-color: $third-color;
+
+    .container {
+        @media (max-width: 991.98px) {
+            background-image: $two-peoples;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right 0 bottom -15px;
+
+            @media (max-width: 545.98px) {
+                background-size: 45%;
+                background-position: right -20px bottom 0;
+            }
+            @media (max-width: 460.98px) {
+                background-size: 50%;
+                background-position: right -20px bottom 0;
+            }
+        }
+
+        .content-block {
+            padding: 0 0 0 52px;
+
+            @media (max-width: 991.98px) {
+                padding: 0 0 0 10px;
+            }
+
+            .section-title {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 61px;
+
+                @media (max-width: 991.98px) {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 22px;
+                }
+            }
+
+            .section-text {
+                color: $second-font-color;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+
+                @media (max-width: 991.98px) {
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 16px;
+                }
+            }
+
+            .section-btn {
+                max-width: 200px;
+                background-color: $second-color;
+                color: $second-font-color;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+
+                @media (max-width: 991.98px) {
+                    max-width: 170px;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+            }
+
+            .section-img {
+                max-height: 500px;
+            }
+        }
+
+
+    }
+
+
+}

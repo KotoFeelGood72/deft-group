@@ -1,0 +1,78 @@
+$sell-apart-bg: url(/resources/images/sell-apart-bg.png);
+
+.sell-apart-section {
+
+    .static-pages-top-banner {
+        .container {
+            background-image: $sell-apart-bg;
+        }
+    }
+
+    .sell-apart__paragraph {
+
+        .paragraph__title {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 38px;
+            color: $second-font-color;
+
+            @media (max-width: 991.98px) {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+
+        .paragraph__text {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+
+            @media (max-width: 991.98px) {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 125%;
+            }
+
+            li {
+                margin-left: 70px;
+
+                @media (max-width:991.98px) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .sell-apart__top {
+        background-image: $sell-apart-bg;
+        width: 100%;
+        min-height: 450px;
+        height: 450px;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+
+    .sell-apart-rests {
+        .sell-apart__paragraph {
+            margin-bottom: 40px;
+
+            .paragraph__title {
+                margin-left: 50px;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .sell-apart__paragraph {
+                margin-bottom: 20px;
+
+                .paragraph__title {
+                    margin-left: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

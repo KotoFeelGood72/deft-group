@@ -1,0 +1,54 @@
+.contact-section {
+
+    .section__title {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 52px;
+
+        @media (max-width: 991.98px) {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .list-title {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: $second-font-color;
+
+        @media (max-width: 991.98px) {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+
+    .list-item {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+
+        @media (max-width: 991.98px) {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+        }
+
+        a {
+            color: #000;
+        }
+
+        .contact-tel {
+            img {
+                max-width: 35px;
+                height: auto;
+
+                @media (max-width: 991.98px) {
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

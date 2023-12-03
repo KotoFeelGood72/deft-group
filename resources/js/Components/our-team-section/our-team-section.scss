@@ -1,0 +1,155 @@
+$two-bg: url(/resources/images/our-team-bg/two.png);
+$three-bg: url(/resources/images/our-team-bg/three.png);
+$four-bg: url(/resources/images/our-team-bg/four.png);
+
+.our-team-section {
+
+    .our-team__title {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 52px;
+
+        @media (max-width: 991.98px) {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .our-team__paragraph {
+
+        .paragraph__text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 146.5%;
+
+            @media (max-width: 991.98px) {
+                font-size: 13px;
+                line-height: 125.5%;
+            }
+
+            @media (max-width: 576.98px) {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .our-team__one {
+        max-height: 490px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        overflow: hidden;
+    }
+
+    .our-team__blocks {
+        margin-top: 50px;
+        height: 450px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 991.98px) {
+            margin-top: 0;
+            height: auto;
+            min-height: 180px;
+        }
+
+        @media (min-width: 991.98px) and (max-width: 1199.98px) {
+            min-height: 380px;
+            height: 380px;
+        }
+    }
+
+    .our-team__two {
+
+        background-image: $two-bg;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @media (max-width: 1199.98px) {
+            background-position: right -50px bottom 50%;
+        }
+
+        @media (max-width: 991.98px) {
+            min-height: 150px;
+            background-position: right -30px bottom 50%;
+            background-size: 300px;
+        }
+
+        @media (max-width: 576.98px) {
+            background-position: right -30px bottom 50%;
+            background-size: 300px;
+        }
+
+        @media (max-width: 470.98px) {
+            background-size: 250px;
+            background-position: right -20px bottom 50%;
+        }
+        @media (max-width: 430.98px) {
+            background-position: right -20px bottom 50%;
+            background-size: 200px;
+        }
+    }
+
+    .our-team__three {
+
+        background-image: $three-bg;
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @media (max-width: 1199.98px) {
+            background-position: left -50px bottom 50%;
+        }
+
+        @media (max-width: 991.98px) {
+            min-height: 150px;
+            background-position: left -30px bottom 50%;
+            background-size: 300px;
+        }
+
+        @media (max-width: 576.98px) {
+            background-position: left -50px bottom 50%;
+            background-size: 300px;
+        }
+        @media (max-width: 470.98px) {
+            background-size: 250px;
+        }
+        @media (max-width: 430.98px) {
+            background-position: left -70px bottom 50%;
+        }
+    }
+
+    .our-team__four {
+
+        background-image: $four-bg;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @media (max-width: 1199.98px) {
+            background-position: right -50px bottom 50%;
+        }
+
+        @media (max-width: 991.98px) {
+            min-height: 150px;
+            background-position: right -30px bottom 50%;
+            background-size: 300px;
+        }
+
+        @media (max-width: 576.98px) {
+            background-position: right -50px bottom 50%;
+            background-size: 300px;
+        }
+        @media (max-width: 470.98px) {
+            background-size: 250px;
+        }
+        @media (max-width: 430.98px) {
+            background-position: right -70px bottom 50%;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+//bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//variables
+@import './variables.scss';
+
+//body
+@import './index.scss';
+
+//header
+@import './Components/header/header.scss';
+@import './Components/modal-contact-us/modal-contact-us.scss';
+
+//footer
+@import './Components/footer/footer.scss';
+
+//card
+@import './Components/product-card/product-card.scss';
+
+//home page
+@import './Components/home-top-banner/home-top-banner.scss';
+@import './Components/promo-home-section/promo-home-section.scss';
+@import './Components/categories-banner-section/categories-banner-section.scss';
+@import './Components/learn-more-section/learn-more-section.scss';
+@import './Components/choose-us-section/choose-us-section.scss';
+@import './Components/question-left-section/question-left-section.scss';
+
+//other sections
+@import './Components/rev-vac-section/rev-vac-section.scss';
+@import './Components/need-help-section/need-help-section.scss';
+@import './Components/product-page-section/product-page-section.scss';
+@import './Components/swiper-product-page/swiper-product-page.scss';
+@import './Components/search-bar/search-bar.scss';
+@import './Components/search-page-result-section/search-page-result-section.scss';
+@import './Components/news-page-section/news-page-section.scss';
+@import './Components/helpful-section/helpful-section.scss';
+@import './Components/contact-section/contact-section.scss';
+@import './Components/about-us-section/about-us-section.scss';
+@import './Components/online-selection-section/online-selection-section.scss';
+@import './Components/after-sale-service-section/after-sale-service-section.scss';
+@import './Components/intro-tour-section/intro-tour-section.scss';
+@import './Components/sell-apart-section/sell-apart-section.scss';
+@import './Components/our-team-section/our-team-section.scss';
+@import './Components/static-pages-top-banner/static-pages-top-banner.scss';
+@import './Components/pagination/PaginationBar.scss';
+@import './Components/saved-section/saved-section.scss';
+@import './Components/citizenship-section/citizenship-section.scss';
+@import './Components/investments-section/investments-section.scss';

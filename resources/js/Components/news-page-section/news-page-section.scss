@@ -1,0 +1,27 @@
+.news-page-section {
+
+    .section__title {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 52px;
+
+        @media (max-width: 991.98px) {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .news-card {
+
+        .card-body {
+
+            .card-btn {
+                width: 100%;
+                background-color: $second-color;
+                color: $second-font-color;
+            }
+        }
+    }
+
+}

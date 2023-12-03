@@ -1,0 +1,105 @@
+
+
+.categories-banner-section {
+
+    .banner-titles {
+
+        .title {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 61px;
+
+            @media (max-width: 991.98px) {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 1em;
+            }
+        }
+
+        .sub-title {
+            color: $second-font-color;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 27px;
+
+            @media (max-width: 991.98px) {
+                font-weight: 400;
+                font-size: 13px;
+            }
+        }
+
+    }
+
+    .desktop-banner {
+
+        .cat-big-block:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        .cat-link {
+
+            .cat-titles {
+                width: 230px;
+                height: 88px;
+                backdrop-filter: blur(14.5px);
+                color: $third-font-color;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+            }
+
+
+            // left category card
+            .cat-big-pic {
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            // small category cards
+            .cat-small-pic {
+                left: 50%;
+                bottom: 40px;
+                transform: translateX(-50%);
+            }
+
+        }
+    }
+
+    .mobile-banner {
+        // выравнивание карточек
+        .cat-block {
+            width: 430px;
+            height: 172px;
+
+            .cat-link {
+                width: 100%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                text-decoration: none;
+                color: $third-font-color;
+
+
+
+                .cat-titles {
+                    width: 248px;
+                    height: auto;
+                    backdrop-filter: blur(14.5px);
+                    color: $third-font-color;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+
+                img {
+                    width: auto;
+                    height: 172px;
+                    bottom: 0;
+                }
+            }
+        }
+
+    }
+}

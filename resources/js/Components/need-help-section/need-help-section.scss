@@ -1,0 +1,115 @@
+
+$two-peoples: url(../images/two-peoples.png);
+
+.need-help-section {
+    background-color: $third-color;
+
+    .container {
+        @media (max-width: 991.98px) {
+            background-image: $two-peoples;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right 0 bottom -15px;
+
+            @media (max-width: 767.98px) {
+                background-size: 50%;
+                background-position: right 0 bottom 0;
+            }
+
+            @media (max-width: 545.98px) {
+                background-size: 55%;
+                background-position: right -20px bottom 0;
+            }
+            @media (max-width: 460.98px) {
+                background-size: 60%;
+                background-position: right -25px bottom 0;
+            }
+        }
+
+        .content-block {
+            padding: 0 0 0 52px;
+
+            @media (max-width: 991.98px) {
+                padding: 0 0 0 10px;
+            }
+
+            .section-title {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 61px;
+
+                @media (max-width: 991.98px) {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 22px;
+                }
+            }
+
+            .section-text {
+                color: $second-font-color;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+
+                @media (max-width: 991.98px) {
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 16px;
+                }
+            }
+
+            .section-form {
+                .form-group {
+                    width: 100%;
+                }
+
+                input {
+                    max-width: 327px;
+                    width: 100%;
+                    height: 45px;
+
+                    @media (max-width: 991.98px) {
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 13px;
+                    }
+                }
+
+                .btn-send {
+                    height: 45px;
+                    background-color: $second-color;
+
+                    @media (max-width: 991.98px) {
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 13px;
+                    }
+                }
+            }
+
+            .section-btn {
+                max-width: 200px;
+                background-color: $second-color;
+                color: $second-font-color;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+
+                @media (max-width: 991.98px) {
+                    max-width: 170px;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+            }
+
+            .section-img {
+                max-height: 500px;
+            }
+        }
+
+
+    }
+
+
+}

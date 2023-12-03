@@ -1,0 +1,62 @@
+$citizenship-bg: url(/resources/images/citizenship-bg.png);
+
+.citizenship-section {
+
+    .static-pages-top-banner {
+
+        .container {
+            background-image: $citizenship-bg;
+        }
+    }
+
+    .citizenship__paragraph {
+
+        .paragraph__title {
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 38px;
+            color: $second-font-color;
+
+            @media (max-width: 991.98px) {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+
+        .paragraph__text {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+
+            @media (max-width: 991.98px) {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 125%;
+            }
+        }
+    }
+
+    .citizenship-rests {
+        .citizenship__paragraph {
+            margin-bottom: 40px;
+
+            .paragraph__title {
+                margin-left: 50px;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .citizenship__paragraph {
+                margin-bottom: 20px;
+
+                .paragraph__title {
+                    margin-left: 20px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+}
