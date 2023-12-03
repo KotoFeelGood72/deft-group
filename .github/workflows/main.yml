@@ -26,5 +26,5 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.MAIN_SECRETS_KEY }}
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.SERVER_USER_NAME }}
-          source: "/dist"
-          target: "home/web/citydeft.com/public_html/deft-group/"
+          source: "/"
+          target: "/home/web/citydeft.com/public_html/deft-group/"
