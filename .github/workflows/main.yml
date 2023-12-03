@@ -1,8 +1,8 @@
-name: Deploy to server
+name: Deploy to server Laravel
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
