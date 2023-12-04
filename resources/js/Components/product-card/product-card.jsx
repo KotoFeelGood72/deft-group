@@ -93,7 +93,7 @@ function ProductCard({data}) {
         <div className="product-card h-100">
             <div className="card h-100 border-0 overflow-hidden shadow-sm">
                 <a href='#' onClick={() => openCard(data)} className='d-inline-block'>
-                    <img src={'http://127.0.0.1:8000/storage/' + data.img} className="card-img-top" alt="image1"/>
+                    <img src={'http://citydeft.com/storage/' + data.img} className="card-img-top" alt="image1"/>
                 </a>
                 <div className="card-body position-relative px-xl-4 py-xl-4 d-flex flex-column justify-content-between">
                     <div className='d-flex flex-nowrap justify-content-between align-items-center mb-3'>
