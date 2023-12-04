@@ -24,7 +24,7 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.2.2
         with:
           SSH_PRIVATE_KEY: ${{ secrets.MAIN_SECRETS_KEY }}
-          REMOTE_HOST: 5.187.2.229
-          REMOTE_USER: root
+          REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.SERVER_USER_NAME }}
           source: "/"
           target: "/home/web/citydeft.com/public_html/deft-group"
