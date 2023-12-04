@@ -2,7 +2,7 @@
 
 function QuestionLeftSection() {
     return(
-        <section className="question-left-section mb-4 mb-lg-5 ss">
+        <section className="question-left-section mb-4 mb-lg-5 sss">
         <div className="container">
             <div className="section-form pt-4 pb-5 px-2">
                 <h2 className="section-title text-center mb-3 mb-lg-5">
